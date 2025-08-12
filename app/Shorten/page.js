@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 
-const page = () => {
+const Page = () => {
 
     const [url, seturl] = useState("")
     const [shorturl, setshorturl] = useState("")
@@ -57,4 +57,4 @@ fetch("/api/generate", requestOptions)
     )
 }
 
-export default page
+export default Page
